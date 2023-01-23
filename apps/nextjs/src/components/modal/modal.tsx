@@ -35,8 +35,8 @@ export const Modal: FC<TaskModalProps> = ({
 
   return (
     <div className="absolute inset-0 flex items-center justify-center bg-black/75">
-      <div className="w-1/2 space-y-4 p-8 bg-white rounded-md">
-        <h1 className="text-3xl font-bold mr-2">
+      <div className="w-1/2 min-w-min space-y-4 p-8 bg-white rounded-md">
+        <h1 className="text-3xl font-bold mr-2 w-72">
           {modalItemData?.id ? 'Edit task' : 'Create task'}
         </h1>
         <div>

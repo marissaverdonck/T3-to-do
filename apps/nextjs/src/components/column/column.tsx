@@ -19,7 +19,7 @@ export const Column: FC<ColumnProps> = ({
 }) => {
   const taskData = useGetTaskData();
   return (
-    <div className="flex-none w-1/3">
+    <div className="flex-none w-80">
       <h2 className="text-xl font-bold mr-2 mb-5">{name}</h2>
       <div className="">
         {taskData?.map((item) => {
